@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerte o País</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Acerte o país</h1>
+        <p class="valor">Valendo 100 pontos</p>
+        <div>
+            <span>0 pontos</span>
+            <button id="btn-novo-jogo">Novo Jogo</button>
+        </div>
+    </header>
+    <main>
+        <div class="btn-dicas">
+            <button id="btn-bandeira">Bandeira (-50)</button>
+            <button id="btn-capital">Capital (-25)</button>
+            <button id="btn-linguas">Línguas (-10)</button>
+            <button id="btn-continentes">Continente (-5)</button>
+            <button id="btn-populacao">População (-5)</button>
+        </div>
+
+        <div class="dicas">
+            <div class="bandeira">
+                <img src="" alt="">
+            </div>
+            <div class="capital">
+                <span></span>
+            </div>
+            <div class="linguas">
+                <span></span>
+            </div>
+            <div class="continentes">
+                <span></span>
+            </div>
+            <div class="populacao">
+                <span></span>
+            </div>
+        </div>
+
+        <footer>
+            <select name="lista-paises" id="lista-paises"></select>
+            <button id="btn-adivinhar">Adivinhar</button>
+        </footer>
+    </main>
+</body>
+</html>

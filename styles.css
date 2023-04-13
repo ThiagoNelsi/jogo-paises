@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background: #e9e9e9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(36, 36, 99);
+    color: white;
+    padding: 2rem 4rem;
+    margin-bottom: 2rem;
+}
+
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.btn-dicas {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.btn-dicas button {
+    padding: 1rem 2rem;
+    background: rgb(8, 139, 8);
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.dicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dicas div {
+    width: 200px;
+    height: 200px;
+    background: white;
+    padding: 1rem;
+    display: flex;
+    place-items: center;
+}
+
+.dicas img {
+    width: 100%;
+}
+
+footer select {
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer button {
+    background:rgb(8, 139, 8);
+    border: 0;
+    width: 100%;
+    padding: 1.5rem;
+}
